@@ -15,6 +15,7 @@
 		<Item Name="motor_stage.vi" Type="VI" URL="../motor_stage.vi"/>
 		<Item Name="SetShiftSpeed.vi" Type="VI" URL="../SetShiftSpeed.vi"/>
 		<Item Name="take shot.vi" Type="VI" URL="../../test code/take shot.vi"/>
+		<Item Name="TIFF.lvproj" Type="Document" URL="../lib/Halloween/SaveTIFF/TIFF.lvproj"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/AbortAcquisition.vi"/>
@@ -58,6 +59,7 @@
 				<Item Name="U32 To Error Code Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d_internal.llb/U32 To Error Code Enum.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -65,6 +67,18 @@
 			<Item Name="atmcd64d.dll" Type="Document" URL="atmcd64d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="IFD Image Array Import.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/IFD Image Array Import.vi"/>
+			<Item Name="IFD.lvclass" Type="LVClass" URL="../lib/Halloween/SaveTIFF/Class/IFD/IFD.lvclass"/>
+			<Item Name="IFD_Tag.lvclass" Type="LVClass" URL="../lib/Halloween/SaveTIFF/Class/Tag/IFD_Tag.lvclass"/>
+			<Item Name="Img Data Type.ctl" Type="VI" URL="../lib/Halloween/SaveTIFF/Class/IFD/Img Data Type.ctl"/>
+			<Item Name="Offset Content.ctl" Type="VI" URL="../lib/Halloween/SaveTIFF/Class/Tag/Offset Content.ctl"/>
+			<Item Name="SaveScan_mk3.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/SaveScan_mk3.vi"/>
+			<Item Name="TIFF Append New IFD.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/TIFF Append New IFD.vi"/>
+			<Item Name="TIFF ULS.lvclass" Type="LVClass" URL="../lib/Halloween/SaveTIFF/Class/TIFF/TIFF ULS.lvclass"/>
+			<Item Name="TIFF.lvclass" Type="LVClass" URL="../lib/Halloween/SaveTIFF/Class/TIFF/TIFF.lvclass"/>
+			<Item Name="ULS Detector.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/ULS Detector.vi"/>
+			<Item Name="ULS Mover.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/ULS Mover.vi"/>
+			<Item Name="Write All Pending Data.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/Class/IFD/Write All Pending Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
