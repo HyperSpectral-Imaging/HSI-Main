@@ -13,6 +13,7 @@
 		<Item Name="atmcd64d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd64d.llb"/>
 		<Item Name="ixon.vi" Type="VI" URL="../ixon.vi"/>
 		<Item Name="motor_stage.vi" Type="VI" URL="../motor_stage.vi"/>
+		<Item Name="saveToTIFF.vi" Type="VI" URL="../saveToTIFF.vi"/>
 		<Item Name="SetShiftSpeed.vi" Type="VI" URL="../SetShiftSpeed.vi"/>
 		<Item Name="take shot.vi" Type="VI" URL="../../test code/take shot.vi"/>
 		<Item Name="TIFF.lvproj" Type="Document" URL="../lib/Halloween/SaveTIFF/TIFF.lvproj"/>
