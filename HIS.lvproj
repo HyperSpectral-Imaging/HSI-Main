@@ -12,6 +12,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="atmcd64d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd64d.llb"/>
 		<Item Name="browse.vi" Type="VI" URL="../browse.vi"/>
+		<Item Name="frontEnd.vi" Type="VI" URL="../frontEnd.vi"/>
 		<Item Name="ixon.vi" Type="VI" URL="../ixon.vi"/>
 		<Item Name="motor_stage.vi" Type="VI" URL="../motor_stage.vi"/>
 		<Item Name="saveToTIFF.vi" Type="VI" URL="../saveToTIFF.vi"/>
