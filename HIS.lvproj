@@ -10,11 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="array_to_pixmap.vi" Type="VI" URL="../array_to_pixmap.vi"/>
 		<Item Name="atmcd64d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd64d.llb"/>
 		<Item Name="browse.vi" Type="VI" URL="../browse.vi"/>
 		<Item Name="config.vi" Type="VI" URL="../config.vi"/>
 		<Item Name="frontEnd.vi" Type="VI" URL="../frontEnd.vi"/>
 		<Item Name="ixon.vi" Type="VI" URL="../ixon.vi"/>
+		<Item Name="mightex.vi" Type="VI" URL="../mightex.vi"/>
 		<Item Name="motor_stage.vi" Type="VI" URL="../motor_stage.vi"/>
 		<Item Name="saveToTIFF.vi" Type="VI" URL="../saveToTIFF.vi"/>
 		<Item Name="SetShiftSpeed.vi" Type="VI" URL="../SetShiftSpeed.vi"/>
@@ -72,7 +74,9 @@
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
@@ -96,6 +100,7 @@
 			<Item Name="Img Data Type.ctl" Type="VI" URL="../lib/Halloween/SaveTIFF/Class/IFD/Img Data Type.ctl"/>
 			<Item Name="Offset Content.ctl" Type="VI" URL="../lib/Halloween/SaveTIFF/Class/Tag/Offset Content.ctl"/>
 			<Item Name="SaveScan_mk3.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/SaveScan_mk3.vi"/>
+			<Item Name="SSClassic_USBCamera_SDK.dll" Type="Document" URL="../lib/SSClassic_USBCamera_SDK.dll"/>
 			<Item Name="TIFF Append New IFD.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/TIFF Append New IFD.vi"/>
 			<Item Name="TIFF ULS.lvclass" Type="LVClass" URL="../lib/Halloween/SaveTIFF/Class/TIFF/TIFF ULS.lvclass"/>
 			<Item Name="TIFF.lvclass" Type="LVClass" URL="../lib/Halloween/SaveTIFF/Class/TIFF/TIFF.lvclass"/>
