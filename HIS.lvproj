@@ -10,6 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="initIxon.vi" Type="VI" URL="../subVIs/initIxon.vi"/>
+			<Item Name="initMightex.vi" Type="VI" URL="../subVIs/initMightex.vi"/>
+			<Item Name="intiStage.vi" Type="VI" URL="../subVIs/intiStage.vi"/>
+			<Item Name="queryStagePosition.vi" Type="VI" URL="../subVIs/queryStagePosition.vi"/>
+			<Item Name="stageGoLeft.vi" Type="VI" URL="../subVIs/stageGoLeft.vi"/>
+			<Item Name="stageGoRight.vi" Type="VI" URL="../subVIs/stageGoRight.vi"/>
+		</Item>
 		<Item Name="array_to_pixmap.vi" Type="VI" URL="../array_to_pixmap.vi"/>
 		<Item Name="atmcd64d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd64d.llb"/>
 		<Item Name="browse.vi" Type="VI" URL="../browse.vi"/>
