@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,12 +12,30 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="subVIs" Type="Folder">
+			<Item Name="closeMightex.vi" Type="VI" URL="../subVIs/closeMightex.vi"/>
+			<Item Name="getTemp.vi" Type="VI" URL="../subVIs/getTemp.vi"/>
+			<Item Name="initFile.vi" Type="VI" URL="../subVIs/initFile.vi"/>
 			<Item Name="initIxon.vi" Type="VI" URL="../subVIs/initIxon.vi"/>
 			<Item Name="initMightex.vi" Type="VI" URL="../subVIs/initMightex.vi"/>
 			<Item Name="intiStage.vi" Type="VI" URL="../subVIs/intiStage.vi"/>
+			<Item Name="ixonLiveview.vi" Type="VI" URL="../subVIs/ixonLiveview.vi"/>
+			<Item Name="ixonScan.vi" Type="VI" URL="../subVIs/ixonScan.vi"/>
+			<Item Name="mightexLiveview.vi" Type="VI" URL="../subVIs/mightexLiveview.vi"/>
 			<Item Name="queryStagePosition.vi" Type="VI" URL="../subVIs/queryStagePosition.vi"/>
+			<Item Name="setExposure.vi" Type="VI" URL="../subVIs/setExposure.vi"/>
+			<Item Name="setHss.vi" Type="VI" URL="../subVIs/setHss.vi"/>
+			<Item Name="setShutterMode.vi" Type="VI" URL="../subVIs/setShutterMode.vi"/>
+			<Item Name="setTemp.vi" Type="VI" URL="../subVIs/setTemp.vi"/>
+			<Item Name="setVss.vi" Type="VI" URL="../subVIs/setVss.vi"/>
 			<Item Name="stageGoLeft.vi" Type="VI" URL="../subVIs/stageGoLeft.vi"/>
+			<Item Name="stageGoOrigin.vi" Type="VI" URL="../subVIs/stageGoOrigin.vi"/>
 			<Item Name="stageGoRight.vi" Type="VI" URL="../subVIs/stageGoRight.vi"/>
+			<Item Name="stageSetOrigin.vi" Type="VI" URL="../subVIs/stageSetOrigin.vi"/>
+		</Item>
+		<Item Name="variables" Type="Folder">
+			<Item Name="configDB.vi" Type="VI" URL="../subVIs/variables/configDB.vi"/>
+			<Item Name="imageSettings.vi" Type="VI" URL="../subVIs/variables/imageSettings.vi"/>
+			<Item Name="dataCube.vi" Type="VI" URL="../subVIs/variables/dataCube.vi"/>
 		</Item>
 		<Item Name="array_to_pixmap.vi" Type="VI" URL="../array_to_pixmap.vi"/>
 		<Item Name="atmcd64d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd64d.llb"/>
@@ -93,6 +112,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
