@@ -31,6 +31,7 @@
 			<Item Name="stageGoOrigin.vi" Type="VI" URL="../subVIs/stageGoOrigin.vi"/>
 			<Item Name="stageGoRight.vi" Type="VI" URL="../subVIs/stageGoRight.vi"/>
 			<Item Name="stageSetOrigin.vi" Type="VI" URL="../subVIs/stageSetOrigin.vi"/>
+			<Item Name="saveFile.vi" Type="VI" URL="../subVIs/saveFile.vi"/>
 		</Item>
 		<Item Name="variables" Type="Folder">
 			<Item Name="configDB.vi" Type="VI" URL="../subVIs/variables/configDB.vi"/>
