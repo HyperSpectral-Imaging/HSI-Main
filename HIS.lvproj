@@ -51,6 +51,7 @@
 		<Item Name="take shot.vi" Type="VI" URL="../../test code/take shot.vi"/>
 		<Item Name="TIFF.lvproj" Type="Document" URL="../lib/Halloween/SaveTIFF/TIFF.lvproj"/>
 		<Item Name="ULSIFD.vi" Type="VI" URL="../ULSIFD.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/AbortAcquisition.vi"/>
