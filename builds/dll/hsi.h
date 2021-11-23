@@ -23,15 +23,19 @@ typedef uint16_t  Shutter_modeTypedef;
  * InitIxon
  */
 void __stdcall InitIxon(uint32_t *DLLErrorCodeFromIni, char model[], 
-	ClusterArray *vsArray, ClusterArray *hsArray, int32_t *len);
+	ClusterArray *vsArray, ClusterArray *hsArray, int32_t len);
 /*!
  * SetShutterMode
  */
-void __stdcall SetShutterMode(Shutter_modeTypedef mode);
+void __cdecl SetShutterMode(Shutter_modeTypedef mode);
 /*!
  * CloseIxon
  */
-void __stdcall CloseIxon(void);
+double __cdecl CloseIxon(void);
+/*!
+ * InterOpTest
+ */
+double __stdcall InterOpTest(double input);
 
 MgErr __cdecl LVDLLStatus(char *errStr, int errStrLen, void *module);
 
