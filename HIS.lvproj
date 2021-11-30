@@ -158,22 +158,20 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/dll</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{90EFABDF-A589-48D5-91C0-F19BAD759041}</Property>
-				<Property Name="Bld_version.build" Type="Int">19</Property>
+				<Property Name="Bld_version.build" Type="Int">34</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">hsi.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/dll/hsi.dll</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/dll/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
 				<Property Name="Dll_headerGUID" Type="Str">{094A2EAE-1DC3-4DDC-B13E-C74897057C0B}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{59188720-327B-468F-98A1-1E7ED11D999B}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FE4062BA-7D81-4626-B1B1-6FE58547BE1E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B3839D30-9AA9-4306-9D6E-966C422BF85F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/subVIs/closeMightex.vi</Property>
@@ -188,6 +186,24 @@
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/subVIs/setHss.vi</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]CallingConv" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]Name" Type="Str">SetShutterMode</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">mode</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;A#!!!!!!!-!"!!!!'I!]=]LZ)1!!!!"'&amp;.I&gt;82U:8*@&lt;7^E:3"U?8"F:'6G,G.U&lt;!"*1"9!"A2"&gt;82P"%^Q:7Y&amp;1WRP=W5(4C^")#AT+1^0='6O)%:71C"4:8*J:8-04X"F&lt;C""&lt;HEA5W6S;76T!!2N&lt;W2F!!"5!0!!$!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-!!(A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!"!!)</Property>
+				<Property Name="Source[13].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">2</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/subVIs/setShutterMode.vi</Property>
 				<Property Name="Source[13].properties[0].type" Type="Str">Show fp when called</Property>
 				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
@@ -219,6 +235,24 @@
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/subVIs/saveFile.vi</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]CallingConv" Type="Int">0</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]Name" Type="Str">CloseIxon</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Temp</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;A#!!!!!!!-!"!!!!!N!#A!%6'6N=!!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!#</Property>
+				<Property Name="Source[21].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">2</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/subVIs/closeIxon.vi</Property>
 				<Property Name="Source[21].properties[0].type" Type="Str">Show fp when called</Property>
 				<Property Name="Source[21].properties[0].value" Type="Bool">false</Property>
@@ -265,44 +299,54 @@
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">4</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">DLLErrorCodeFromIni</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">3</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">model</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">5</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">5</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">model</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">2</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">vsArray</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">6</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">6</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">vsArray</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">hsArray</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">7</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">3</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">hsArray</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">modelLen</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">0</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]Name" Type="Str">InitIxon</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">vsArrayLen</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[4].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;A#!!!!!!!E!%%!Q`````Q:4&gt;(*J&lt;G=!!!N!"A!&amp;6G&amp;M&gt;75!#A"1!!)!!!!"!"2!1!!"`````Q!#"WBT18*S98E!&amp;%"!!!(`````!!)(&gt;H."=H*B?1!/1$$`````"7VP:'6M!"V!"Q!82%R-)'6S=G^S)'.P:'5A:H*P&lt;3"J&lt;GE!"!!!!&amp;1!]!!-!!-!"!!&amp;!!9!"Q!(!!=!"Q!(!!=!"Q!(!Q!!?!!!#1!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!#!</Property>
-				<Property Name="Source[4].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]CallingConv" Type="Int">0</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]Name" Type="Str">InitIxon</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoName" Type="Str">hsArrayLen</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfo[6]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;A#!!!!!!!9!"!!!!!Z!-0````]&amp;&lt;7^E:7Q!#U!+!!6T='6F:!!51%!!!@````]!!A&gt;W=U&amp;S=G&amp;Z!"2!1!!"`````Q!#"WBT18*S98E!0!$Q!!A!!!!!!!!!!!!!!!%!!Q!%!Q!!S!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!#1!!!!E!!!!!!1!&amp;</Property>
+				<Property Name="Source[4].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">7</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/subVIs/initIxon.vi</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[4].type" Type="Str">ExportedVI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
@@ -312,8 +356,30 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/subVIs/intiStage.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]CallingConv" Type="Int">0</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]Name" Type="Str">IxonLiveview</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">stop</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfoCPTM" Type="Bin">&amp;A#!!!!!!!A!"!!!!!5!!Q!!(%"!!!,``````````Q!"#ERF:H1A2X*B='A!!!5!"1!!(E"!!!,``````````Q!$$$AN9GFU)("J?'VB=!!!&amp;%!T`````QNO:8=A='FD&gt;(6S:1!+1#%%=X2P=!!!6!$Q!!Q!!!!#!!1!"1!!!!!!!!!!!!!!!!!!!!9$!!"Y!!!!!!!!#1!!!!E!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!1!(</Property>
+				<Property Name="Source[7].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">2</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/subVIs/ixonLiveview.vi</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Show fp when called</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">ExportedVI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/subVIs/ixonScan.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
