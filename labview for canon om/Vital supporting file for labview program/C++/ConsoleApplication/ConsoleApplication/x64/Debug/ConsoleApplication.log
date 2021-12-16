@@ -1,0 +1,5 @@
+﻿  ConsoleApplication.cpp
+D:\All Users\Summer2019\Camera_po_sheng\Canon\ConsoleApplication\ConsoleApplication\ConsoleApplication.cpp(365,20): warning C4018:  '<': signed/unsigned 不相符
+D:\All Users\Summer2019\Camera_po_sheng\Canon\ConsoleApplication\ConsoleApplication\ConsoleApplication.cpp(381,33): warning C4805:  '==': 作業中不安全的混用類型 'EdsBool' 和類型 'bool'
+D:\All Users\Summer2019\Camera_po_sheng\Canon\ConsoleApplication\ConsoleApplication\ConsoleApplication.cpp(394): warning C4172:  傳回區域變數或暫存的位址: dirItem
+  ConsoleApplication.vcxproj -> D:\All Users\Summer2019\Camera_po_sheng\Canon\ConsoleApplication\x64\Debug\ConsoleApplication.exe

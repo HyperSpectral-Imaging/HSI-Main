@@ -1,0 +1,23 @@
+在這個資料夾中，有兩個Visual Studio 2019開發專案。分別是exe專案ConsoleApplication\ConsoleApplication.sln、
+dll專案Dll for liveview\Dll for liveview.sln，兩個資料夾內都已經有專案建置所需的完整檔案，
+請不要任意將檔案移入或移出，需要修改或測試這兩個專案時，請以visual studio開啟.sln檔。
+
+1. ConsoleApplication: 這個專案所建置的.exe應用程式，能夠與我們的EOS RP相機溝通，
+設定ISO、快門、擷取liveview影像、擷取相機拍攝的照片等等。\ConsoleApplication\x64\Debug\ConsoleApplication.exe
+可以直接雙擊開啟執行，但這個專案主要適用於開發階段的測試，在Visual Studio中透過debbuger了解EDSDK中各個API的運作方式，
+對LabVIEW開發過程相當重要。這個專案中有大量程式碼是以EDSDK說明書中的範例程式碼寫成。
+
+2. Dll for liveview: 這個專案所建置出的Dll for liveview.dll，是我所開發的LabVIEW程式運作時的必要資源，
+雖然名為for liveview，但實際上是用來擷取已拍攝的照片以及liveview影像資料。
+但在您將所有開發所需資源都下載到您的電腦上後，理論上，這個dll無法運作，原因是該dll會使用到EDSDK.dll中的函式，
+因此必須在建置時指派EDSDK.dll及其他外部資源的位置。由於我所開發的程式並未建置成release版本，
+因此每次要在另一台電腦使用這個dll時，必須在visual studio中重新指定EDSDK.dll等外部資源的位置，
+並且重新建置Dll for liveview.dll，才能確保程式正常執行。在visual studio中必須更動的設定包括:
+
+2.1 屬性>>C/C++>>一般>>其他#include目錄: \vital supporting file for labview program\EDSDK131020CD(13.10.20)\Windows\EDSDK\Header
+2.2 屬性>>連結器>>輸入>>其他相依性: \vital supporting file for labview program\EDSDK131020CD(13.10.20)\Windows\EDSDK_64\Library\EDSDK.lib
+2.3 屬性>>連結器>>一般>>其他程式庫輸入: \vital supporting file for labview program\EDSDK131020CD(13.10.20)\Windows\EDSDK_64\Dll
+(若您移動了這些資料夾或檔案的存放位置，請務必調整相應的位置目錄)
+
+在不同版本的visual studio中，更改這些設定的操作路徑可能不同，但在網路上能夠輕易地找到相關資料，
+搜尋關鍵字"visual studio 20xx"、"使用dll"、"使用動態函式庫"等等。更動完這些設定後，請記得要重新建置Dll for liveview.dll。

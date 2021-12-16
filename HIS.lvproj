@@ -35,6 +35,10 @@
 			<Item Name="stageWaitForStandby.vi" Type="VI" URL="../subVIs/stageWaitForStandby.vi"/>
 			<Item Name="closeIxon.vi" Type="VI" URL="../subVIs/closeIxon.vi"/>
 			<Item Name="interOpTest.vi" Type="VI" URL="../subVIs/interOpTest.vi"/>
+			<Item Name="initCanon.vi" Type="VI" URL="../subVIs/initCanon.vi"/>
+			<Item Name="closeCanon.vi" Type="VI" URL="../subVIs/closeCanon.vi"/>
+			<Item Name="canonLiveview.vi" Type="VI" URL="../subVIs/canonLiveview.vi"/>
+			<Item Name="drawHorizontalRange.vi" Type="VI" URL="../subVIs/drawHorizontalRange.vi"/>
 		</Item>
 		<Item Name="variables" Type="Folder">
 			<Item Name="configDB.vi" Type="VI" URL="../subVIs/variables/configDB.vi"/>
@@ -57,6 +61,7 @@
 		<Item Name="TIFF.lvproj" Type="Document" URL="../lib/Halloween/SaveTIFF/TIFF.lvproj"/>
 		<Item Name="ULSIFD.vi" Type="VI" URL="../ULSIFD.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="Control_demo.vi" Type="VI" URL="../labview for canon om/Control_demo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/AbortAcquisition.vi"/>
@@ -125,6 +130,20 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
+				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
+				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
+				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Coerce Bad Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Coerce Bad Rect.vi"/>
+				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
+				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
 			</Item>
 			<Item Name="atmcd64d.dll" Type="Document" URL="atmcd64d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -142,6 +161,30 @@
 			<Item Name="ULS Detector.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/ULS Detector.vi"/>
 			<Item Name="ULS Mover.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/MainVI/ULS Mover.vi"/>
 			<Item Name="Write All Pending Data.vi" Type="VI" URL="../lib/Halloween/SaveTIFF/Class/IFD/Write All Pending Data.vi"/>
+			<Item Name="EdsInitialize.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsInitialize.vi"/>
+			<Item Name="EDSDK.dll" Type="Document" URL="../../EDSDK13.13.41/EDSDK13.13.41/Windows/EDSDK_64/Dll/EDSDK.dll"/>
+			<Item Name="EdsErrorCodes.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsErrorCodes.vi"/>
+			<Item Name="EDS_Errors.ctl" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EDS_Errors.ctl"/>
+			<Item Name="EdsGetCameraList.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsGetCameraList.vi"/>
+			<Item Name="EdsGetChildCount.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsGetChildCount.vi"/>
+			<Item Name="EdsGetChildAtIndex.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsGetChildAtIndex.vi"/>
+			<Item Name="EDSDK.dll" Type="Document" URL="../labview for canon om/Vital supporting file for labview program/C++/ConsoleApplication/x64/Debug/EDSDK.dll"/>
+			<Item Name="EdsRelease.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsRelease.vi"/>
+			<Item Name="EdsOpenSession.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsOpenSession.vi"/>
+			<Item Name="EdsGetDeviceInfo.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsGetDeviceInfo.vi"/>
+			<Item Name="EDS_MAX_NAME.ctl" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EDS_MAX_NAME.ctl"/>
+			<Item Name="byteArray2uint32.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/byteArray2uint32.vi"/>
+			<Item Name="byteArray2Cstring.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/byteArray2Cstring.vi"/>
+			<Item Name="EdsCloseSession.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsCloseSession.vi"/>
+			<Item Name="EdsTerminate.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsTerminate.vi"/>
+			<Item Name="kEdsProperties.ctl" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/kEdsProperties.ctl"/>
+			<Item Name="EdsGetPropertySize.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsGetPropertySize.vi"/>
+			<Item Name="kEdsDataTypes.ctl" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/kEdsDataTypes.ctl"/>
+			<Item Name="EdsSetPropertyData.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsSetPropertyData.vi"/>
+			<Item Name="EdsSendCommand.vi" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/EdsSendCommand.vi"/>
+			<Item Name="kEdsCameraCommands.ctl" Type="VI" URL="../labview for canon om/Vital supporting file for labview program/LV-EDSDK-Distribution_0.2/Distribution/EDSDK-Labview.llb/kEdsCameraCommands.ctl"/>
+			<Item Name="savephoto.vi" Type="VI" URL="../labview for canon om/savephoto.vi"/>
+			<Item Name="Dll for liveview.dll" Type="Document" URL="../labview for canon om/Vital supporting file for labview program/C++/Dll for liveview/x64/Debug/Dll for liveview.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="HSIDLL" Type="DLL">
@@ -158,20 +201,22 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/dll</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{90EFABDF-A589-48D5-91C0-F19BAD759041}</Property>
-				<Property Name="Bld_version.build" Type="Int">34</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">hsi.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/dll/hsi.dll</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/dll/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
 				<Property Name="Dll_headerGUID" Type="Str">{094A2EAE-1DC3-4DDC-B13E-C74897057C0B}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{59188720-327B-468F-98A1-1E7ED11D999B}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B3839D30-9AA9-4306-9D6E-966C422BF85F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0E973D40-8BF0-4E58-B49B-90C4DD423C54}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/subVIs/closeMightex.vi</Property>
@@ -377,7 +422,11 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/subVIs/ixonLiveview.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Show fp when called</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[7].type" Type="Str">ExportedVI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
@@ -388,6 +437,7 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">23</Property>
 				<Property Name="TgtF_companyName" Type="Str">NTU</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">HSIDLL</Property>
 				<Property Name="TgtF_internalName" Type="Str">HSIDLL</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright ?2021 NTU</Property>

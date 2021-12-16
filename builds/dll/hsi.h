@@ -2,6 +2,13 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
+typedef uint16_t  Shutter_modeTypedef;
+#define Shutter_modeTypedef_Auto 0
+#define Shutter_modeTypedef_Open 1
+#define Shutter_modeTypedef_Close 2
+#define Shutter_modeTypedef_NA3 3
+#define Shutter_modeTypedef_OpenFVBSeries 4
+#define Shutter_modeTypedef_OpenAnySeries 5
 
 /*!
  * InitIxon
@@ -15,7 +22,7 @@ void __stdcall IxonLiveview(LVBoolean *stop);
 /*!
  * SetShutterMode
  */
-void __stdcall SetShutterMode(uint16_t mode);
+void __stdcall SetShutterMode(Shutter_modeTypedef mode);
 /*!
  * CloseIxon
  */

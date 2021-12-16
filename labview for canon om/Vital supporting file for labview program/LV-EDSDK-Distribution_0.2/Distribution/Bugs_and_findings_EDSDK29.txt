@@ -1,0 +1,75 @@
+Bugs (mostly documentation) in EDSDK v2.9
+=========================================
+
+
+EdsDownloadEvfImage:
+--------------------
+
+  The SDK manual (v2.9) reports a call form
+
+    EdsError EdsDownloadEvfImage (EdsCameraRef outStream, EdsEvfImageRef outEvfImage)
+
+  in which the argument names are misleading (their types are more suggestive).
+  EDSDK.h has the correct prototype with better argument names:
+
+    EdsError EdsDownloadEvfImage (EdsCameraRef inCameraRef, EdsEvfImageRef inEvfImageRef) ;
+
+  Moreover, this routine has to be called with C conventions and not stdcall 
+  (http://canonsdk.com/phpBB3/viewtopic.php?f=7&t=821&p=1172)
+
+
+EdsCreateEvfImageRef:
+---------------------
+
+  This routine has to be called with C conventions and not stdcall 
+  (http://canonsdk.com/phpBB3/viewtopic.php?f=7&t=821&p=1172)
+
+  The stream created by this function becomes filled with a plain string
+  containing the live view image encoded as JPEG. The image can be decoded
+  by EdsGetImage (see comments below), or feeded to any other JPEG decoder.
+  This is known to the neswgroups but undocumented.
+
+
+EdsGetImage, EdsDownload and EdsDownloadThumbnail:
+--------------------------------------------------
+
+  The argument outStreamRef is an input argument, despite its name. The stream
+  is supposed to have already been created by, e.g. EdsCreateMemoryStream.
+
+
+EdsGetImage:
+------------
+
+  The output stream format of EsdGetImage is undocumented. By trial and error it appears
+  that for the EOS550D, all the interesting RGB picture data is located just at the end of the stream.
+  For that, in live wiew mode, inImageSource has to be set as "Thumbnail", and when retrieving
+  normal pictures, as "FullView". The use of other combinations is unknown to me. The initial part 
+  of the stream likely contains important data, but I'm not aware of a documentation of which, nor
+  of any useful function which unpacks efficiently all the content of the stream.
+  As a JPEG decoder, the performance of EdsGetImage is probably not the best. I achieved
+  ~ 10% more throughput with the routine found on http://decibel.ni.com/content/docs/DOC-13513 .
+
+
+EdsGetDirectoryItemInfo:
+------------------------
+
+  The SDK manual (v2.9) describes the member "format" of the structure
+  DirectoryItemInfo as of type EdsImageType (correctly), However, immediately
+  afterwards it reports a table for the enum EdsImageTargetType, which is not the same
+  (confusing)
+
+
+Typos in EDSDKTypes.h:
+----------------------
+
+*definition of the EdsImageQuality enum: 
+    EdsImageQuality_SJN = 0x0213ff0f, /* Jpeg Small Normal */
+  would coincide with the value of EdsImageQuality_SJF. Comparing with the
+  neighboring definitions, it looks likely that the intended value is 0x0212ff0f.
+
+
+Undocumented functions
+----------------------
+
+in EDSDK.dll: EdsDownloadCtgInfo and EdsCreateCtgInfoRef. Across the net, I found hints that .ctg files
+are index files on camera which contain information about how pictures are stored.

@@ -1,0 +1,5 @@
+﻿  dllmain.cpp
+D:\All Users\Summer2019\Camera_po_sheng\Dll for liveview\Dll for liveview\dllmain.cpp(227,20): warning C4018:  '<': signed/unsigned 不相符
+D:\All Users\Summer2019\Camera_po_sheng\Dll for liveview\Dll for liveview\dllmain.cpp(243,33): warning C4805:  '==': 作業中不安全的混用類型 'EdsBool' 和類型 'bool'
+D:\All Users\Summer2019\Camera_po_sheng\Dll for liveview\Dll for liveview\dllmain.cpp(256): warning C4172:  傳回區域變數或暫存的位址: dirItem
+  Dll for liveview.vcxproj -> D:\All Users\Summer2019\Camera_po_sheng\Dll for liveview\x64\Debug\Dll for liveview.dll
