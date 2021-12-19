@@ -46,6 +46,8 @@
 			<Item Name="imageSettings.vi" Type="VI" URL="../subVIs/variables/imageSettings.vi"/>
 			<Item Name="dataCube.vi" Type="VI" URL="../subVIs/variables/dataCube.vi"/>
 			<Item Name="displayImage.vi" Type="VI" URL="../subVIs/variables/displayImage.vi"/>
+			<Item Name="background.vi" Type="VI" URL="../subVIs/variables/background.vi"/>
+			<Item Name="reference.vi" Type="VI" URL="../subVIs/variables/reference.vi"/>
 		</Item>
 		<Item Name="array_to_pixmap.vi" Type="VI" URL="../array_to_pixmap.vi"/>
 		<Item Name="atmcd64d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd64d.llb"/>
@@ -62,6 +64,7 @@
 		<Item Name="ULSIFD.vi" Type="VI" URL="../ULSIFD.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Control_demo.vi" Type="VI" URL="../labview for canon om/Control_demo.vi"/>
+		<Item Name="cubeSubstraction.vi" Type="VI" URL="../cubeSubstraction.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/AbortAcquisition.vi"/>
