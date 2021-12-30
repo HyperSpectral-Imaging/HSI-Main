@@ -106,6 +106,7 @@
 				<Item Name="StartAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/StartAcquisition.vi"/>
 				<Item Name="Subtract ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d_internal.llb/Subtract ECO For DLL.vi"/>
 				<Item Name="U32 To Error Code Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d_internal.llb/U32 To Error Code Enum.vi"/>
+				<Item Name="WaitForAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/WaitForAcquisition.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
