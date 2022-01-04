@@ -40,6 +40,7 @@
 			<Item Name="canonLiveview.vi" Type="VI" URL="../subVIs/canonLiveview.vi"/>
 			<Item Name="drawHorizontalRange.vi" Type="VI" URL="../subVIs/drawHorizontalRange.vi"/>
 			<Item Name="waveformGraphDraw.vi" Type="VI" URL="../subVIs/waveformGraphDraw.vi"/>
+			<Item Name="stageGoAbs.vi" Type="VI" URL="../subVIs/stageGoAbs.vi"/>
 		</Item>
 		<Item Name="variables" Type="Folder">
 			<Item Name="configDB.vi" Type="VI" URL="../subVIs/variables/configDB.vi"/>
