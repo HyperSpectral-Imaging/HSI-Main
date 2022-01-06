@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------
+                             EDSDK 13.10.20 Release Note
+                                   03/12/2019 
+                                   Canon Inc.
+------------------------------------------------------------------------------------------
+
+1.History
+
+03/12/2019	* Added support for the EOS Kiss X10 / EOS Rebel SL3 / EOS 250D / EOS 200D II
+			* Added Power Zoom Adapter Control functionality
+
+02/22/2019	* Added support for the EOS RP
+
+12/13/2018	* Deleted RAW development functionality
+			* Added samples for the following programming languages
+			    * Swift
+			    * CSharp
+
+2. Usage of EDSDK
+Please refer to EDSDK_API.pdf for the detail.

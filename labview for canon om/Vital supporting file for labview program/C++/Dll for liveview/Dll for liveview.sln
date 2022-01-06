@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll for liveview", "Dll for liveview\Dll for liveview.vcxproj", "{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Debug|x64.ActiveCfg = Debug|x64
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Debug|x64.Build.0 = Debug|x64
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Debug|x86.ActiveCfg = Debug|x64
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Debug|x86.Build.0 = Debug|x64
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Release|x64.ActiveCfg = Release|x64
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Release|x64.Build.0 = Release|x64
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Release|x86.ActiveCfg = Release|Win32
+		{55BCDF66-C1B2-45C7-9710-BF82D52ECA15}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {873A7B4B-7E98-40BD-A96C-067DB6EB8A7D}
+	EndGlobalSection
+EndGlobal

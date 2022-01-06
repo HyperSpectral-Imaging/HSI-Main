@@ -1,0 +1,12 @@
+1. EDSDK131020CD(13.10.20)資料夾內是Canon官方所提供的SDK，其中包含.dll/.lib等檔案，
+以及SDK的開發說明書，進行更進一步的軟體開發前請詳閱說明書。
+
+2. LV-EDSDK-Distribution_0.2是從網路所尋得的labview開發資源，
+在我們所開發的LabVIEW program當中用到數個該資料夾內的subVI，
+可從\LV-EDSDK-Distribution_0.2\Distribution\EDSDKCallTree找到，開啟該檔案時LabVIEW會尋找CallbackEvent.dll檔案，
+其路徑為\LV-EDSDK-Distribution_0.2\Distribution\CallbackEvent.dll。
+
+3. C++資料夾內有ConsoleApplication及Dll for liveview兩個資料夾，
+分別為鄭泊聲以Visual Studio 2019所開發的.exe專案及.dll專案。
+請不要將EDSDK.dll及Edsimage.dll這兩個檔案複製到Dll for liveview資料夾中的任何位置，
+否則會造成SDK的memory allocation錯亂。關於這兩個檔案的詳細資料及dll的使用，請參閱C++資料夾中的說明。
