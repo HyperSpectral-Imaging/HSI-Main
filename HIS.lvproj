@@ -68,6 +68,7 @@
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Control_demo.vi" Type="VI" URL="../labview for canon om/Control_demo.vi"/>
 		<Item Name="cubeSubstraction.vi" Type="VI" URL="../cubeSubstraction.vi"/>
+		<Item Name="readTiff.vi" Type="VI" URL="../readTiff.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd64d.llb/AbortAcquisition.vi"/>
