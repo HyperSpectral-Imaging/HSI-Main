@@ -20,6 +20,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="SaveScan_mk3.vi" Type="VI" URL="../SaveScan_mk3.vi"/>
+		<Item Name="String to Tag.vi" Type="VI" URL="../String to Tag.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
