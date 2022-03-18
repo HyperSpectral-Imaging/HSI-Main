@@ -7,7 +7,7 @@ I developed the whole project using LabVIEW 2016, please install a valid LabVIEW
 You can get Andor SDK from Andor if you buyed one of their imaging sensor product. Install Andor SDK according to the instructions provided by Andor. Make sure the LabVIEW version you wish to use is already installed before installing Andor SDK, this will make sure Andor SDK installs itself as LabVIEW compatible and includes the LabVIEW library and sub VIs of Andor SDK. 
 ### EDSDK
 You may have to apply for newer version of EDSDK from Canon if you use a newer camera. Using Canon SDK is basically calling functions in the dynamic load library (.dll) provided by EDSDK with LabVIEW Call Function Node. There is also no need for any installation process.
-The correct version of EDSDK should be placed at HSI-Main/labview for canon om/Vital supporting file for labview program/EDSDK13.13.41.
+The correct version of EDSDK should be placed at `HSI-Main/labview for canon om/Vital supporting file for labview program/EDSDK13.13.41`.
 ### Mightex SDK
 You download the SDK for crontrolling your mightex camera directly from Mightex official website. Using Mightex SDK is the same as using EDSDK.
 ## Folders
